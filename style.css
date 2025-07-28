@@ -26,3 +26,21 @@ img {
 
 /*----Normalize---*/
 
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template: 1fr 4fr / 1fr 4fr;
+}
+
+.sidebar {
+    grid-area: 1 / 1 / -1 / 2;
+    background-color: darkcyan;
+}
+
+.header {
+    background-color: blanchedalmond;
+}
+
+.main {
+    background-color: burlywood;
+}
