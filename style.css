@@ -39,8 +39,24 @@ img {
 
 .header {
     background-color: blanchedalmond;
+    display: grid;
+    grid-template: 1fr 1fr / 2fr 1fr;
 }
 
 .main {
     background-color: burlywood;
 }
+
+.title {
+    padding: 25px;
+    font-weight: bolder;
+}
+
+.sidebar ul {
+    display: grid;
+    grid-template: 1fr / 1fr;
+    gap: 20px;
+    list-style-type: none;
+    margin-bottom: 40px;
+}
+
