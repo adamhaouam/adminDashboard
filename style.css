@@ -69,6 +69,13 @@ img {
     margin-bottom: 40px;
 }
 
+.sidebar ul li {
+    display: grid;
+    grid-template: 1fr / 35px 1fr;
+    justify-items: start;
+}
+
+
 .header ul {
     display: grid;
     gap: 20px;
