@@ -26,9 +26,7 @@ img {
 
 /*----Normalize---*/
 
-* {
-    border: 1px solid red;
-}
+
 
 .container {
     height: 100vh;
@@ -46,6 +44,7 @@ img {
     display: grid;
     align-items: center;
     grid-template: 1fr 1fr / 2fr 1fr;
+    padding: 10px 20px;
 }
 
 .main {
@@ -127,4 +126,45 @@ img {
     -moz-transform: scaleX(-1);
     -webkit-transform: scaleX(-1);
     -ms-transform: scaleX(-1);
+}
+
+.icon {
+    border-radius: 50%;
+    object-fit: contain;
+    height: 50px;
+}
+
+.login {
+    display: grid;
+    grid-template: 1fr / repeat(3, 1fr);
+    font-size: 1.2rem;
+    place-items: center center;
+}
+
+.welcome {
+    display: grid;
+    grid-template: 1fr 2fr / 1fr 6fr;
+}
+
+.welcome .icon {
+    grid-area: 1 / 1 / -1 / 2;
+    place-self: center center;
+}
+
+h2 {
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+.searchbar {
+    display: grid;
+    grid-template: 1fr / 30px 1fr;
+}
+
+.searchbar input {
+    border-radius: 10px;
 }
