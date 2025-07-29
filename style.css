@@ -56,9 +56,21 @@ img {
     padding: 20px;
 }
 
-.title {
+.titleName {
     padding: 25px;
     font-weight: bolder;
+}
+
+.title {
+    display: grid;
+    grid-template: 1fr / 50px 1fr;
+    place-items: center start;
+    gap: 5px;
+}
+
+.title span {
+    font-size: 50px;
+    padding-left: 30px;
 }
 
 .sidebar ul {
