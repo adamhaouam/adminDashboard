@@ -197,6 +197,7 @@ h3 {
     grid-template: 1fr 3fr 1fr / 1fr;
     border-radius: 10px;
     background-color: white;
+    border-left: 10px solid orange;
 }
 
 * {
