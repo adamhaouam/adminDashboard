@@ -40,7 +40,7 @@ h1 {
 .container {
     height: 100vh;
     display: grid;
-    grid-template: 1fr 4fr / 1fr 4fr;
+    grid-template: 1fr 4fr / 200px 4fr;
 }
 
 .sidebar {
