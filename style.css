@@ -40,24 +40,29 @@ h1 {
 .container {
     height: 100vh;
     display: grid;
-    grid-template: 1fr 4fr / 200px 4fr;
+    grid-template: 180px 1fr / 200px 1fr;
 }
 
 .sidebar {
     grid-area: 1 / 1 / -1 / 2;
-    background-color: darkcyan;
+    background-color: #339fda;
+    color:  white;
 }
 
 .header {
-    background-color: blanchedalmond;
+    background-color: white;
     display: grid;
     align-items: center;
     grid-template: 1fr 1fr / 2fr 1fr;
     padding: 10px 20px;
+    position: relative;
+    box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.1);
+-webkit-box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.1);
+-moz-box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.1);
 }
 
 .main {
-    background-color: burlywood;
+    background-color: gainsboro;
     display: grid;
     grid-template: 1fr / 3fr 1fr;
     gap: 20px;
@@ -106,8 +111,12 @@ h1 {
 
 .header ul li {
     background-color: cornflowerblue;
-    border-radius: 10px;
-    text-align: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    height: 40px;
+    display: grid;
+    place-content: center center;
     
 }
 
@@ -204,6 +213,9 @@ h3 {
     background-color: white;
     border-left: 10px solid orange;
     height: 200px;
+    box-shadow: 3px 4px 5px 1px rgba(0,0,0,0.09);
+-webkit-box-shadow: 3px 4px 5px 1px rgba(0,0,0,0.09);
+-moz-box-shadow: 3px 4px 5px 1px rgba(0,0,0,0.09);
 }
 
 
@@ -216,6 +228,9 @@ h3 {
     display: grid;
     grid-template-columns: 1fr;
     grid-auto-rows: 1fr;
+    box-shadow: 3px 4px 5px 1px rgba(0,0,0,0.09);
+-webkit-box-shadow: 3px 4px 5px 1px rgba(0,0,0,0.09);
+-moz-box-shadow: 3px 4px 5px 1px rgba(0,0,0,0.09);
     
 }
 
@@ -245,6 +260,6 @@ h3 {
 .sideList {
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 20px;
 }
 
