@@ -27,6 +27,15 @@ img {
 /*----Normalize---*/
 
 
+* {
+    font-family: 'Roboto', sans-serif;
+}
+  
+h1 {
+    font-weight: 1000;
+    font-size: 1.3rem;
+}
+
 
 .container {
     height: 100vh;
